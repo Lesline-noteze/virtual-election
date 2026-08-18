@@ -1,0 +1,81 @@
+
+h1{
+    
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(37, 1, 71);
+    font-weight: 800;
+    letter-spacing: 3px;
+ 
+}
+.oui{
+    margin-left: 150px;
+    margin-top: -300px;
+}
+img:hover{
+}
+p{
+    margin-left: 300px;
+}
+img{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 10px;
+    background-color: blue;
+    color: aliceblue;
+}
+section{
+    border: 1px solid blue;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-left: 230px;
+    margin-right: 230px;
+    background-color: rgb(94, 94, 146);
+    
+}
+h2{
+    letter-spacing: 3px;
+}
+footer{
+    background-color: gray;
+    height: 150px;
+    width: 100%;
+    
+}
+.toi{
+    margin-left: 100px;
+}
+.moi{
+    margin-left: 240px;
+}
+.lui{
+    margin-left:300px ;
+}
+.yes{
+    margin-left: 500px;
+    position: relative;
+    bottom: 110px;
+}
+.please{
+    position: relative;
+    top: 10px;
+}
+.the{
+    position: relative;
+    bottom: 90px;
+    right: 150px;
+}
+.on{
+    margin-left: 820px;
+    position: relative;
+    bottom: 80px;
+}
+.love{
+    font-size: 25px;
+    letter-spacing: 2px;
+    
+}

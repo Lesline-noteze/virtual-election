@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+section{
+    background-color: rgb(189, 175, 199);
+    height: 1300px;
+}
+nav{
+    background-color: rgb(228, 215, 238);
+    height: 980px;
+    width: 400px;
+}
+h1{
+    background-color: rgb(44, 41, 41);
+    width: 400px;
+    height: 500px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+h2{
+    height: 200px;
+    width: 400px;
+}
+h4{
+    height: 550px;
+    width: 400px;
+    background-color:black ;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+}
+img{
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+img{
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+.A{
+    color: #fff;
+    font-size: 25px;
+    padding-top: 60px;
+    text-align: center;
+    
+}
+ul{
+    padding-left: 60px;
+    padding-top: 50px;
+    list-style-type: none;
+}
+.b{
+    padding-bottom: 20px;
+}
+h4 ul li{
+    color: #fff;
+    padding-bottom: 15px;
+    padding-left: 35px;
+}
+.c{
+    padding-left: 40px;
+    font-size: 25px;
+}
+.d,.f,.h{
+    font-size: 20px;
+}
+.menu{
+    padding-left: 500px;
+    position: relative;
+    bottom: 940px;
+    color: rgb(66, 63, 63);
+}
+.men{
+    padding-bottom: px;
+    font-size: 25px;
+    color: black;
+}
+.sedo{
+    padding-left: 500px;
+    position: relative;
+    bottom: 920px;
+    color: rgb(66, 63, 63);
+}
+.l{
+    font-size: 25px;
+    color: black;
+}
+.toi{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    
+}
+.toi:hover{
+    color: violet;
+}
+.v,.x{
+    color: blue;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.art{
+    padding-left: 500px;
+   position: relative;
+   bottom: 190px;
+}
+.x{
+    padding-bottom: 40px;
+}
+meter{
+    color: blue;
+}
+.vect{
+    position: relative;
+    bottom: 180px;
+}
+.non{
+    color: blue;
+    font-size: 20px;
+}
+.grand{
+    padding-left: 500px; 
+    position: relative;
+    bottom: 355px;
+}
+.nous{
+    color: blue;
+    font-size: 20px;
+}
+.toto{
+    padding-left: 550px;
+    position: relative;
+    top: 540px;
+    color: rgb(75, 65, 65);
+}
+.lin{
+    color: blue;
+    padding-bottom: 20px;
+}
+.pas{
+    padding-left: 1000px;
+    position: relative;
+    top: 300px;
+}
+.oui{
+    color: blue;
+}
+h4 ul li img{
+    background-color: #fff;
+   
+}
+.ib{
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+}
+.e,.g,.i,.j,.k{
+    position: relative;
+    bottom: 10px;
+    color: gray;
+}
+.code{
+    position: relative;
+    top: 20px;
+}
+h2 ul li{
+    color: gray;
+}
+.b{
+    color: black;
+}

@@ -1,0 +1,23 @@
+
+header{
+    height: 100px;
+    background-color: blue;
+}
+section{
+    height: 500px;
+    background-color: aqua;
+    width: 100%;
+   
+}
+nav{
+    width: 60%;
+    background-color: rgb(151, 94, 94);
+    height: 500px;
+    padding-right: 20px;
+    margin-right: 50px;
+}
+b{
+    width: 30%;
+    height: 500px;
+    background-color: aliceblue;
+}

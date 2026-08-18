@@ -1,0 +1,23 @@
+
+
+
+
+
+.bloc{
+      width:1010px;
+      height: 100%;
+      background-color: rgb(179, 161, 161);
+      margin: 0 auto;
+      
+}
+.bloc p{
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 900px)
+{
+   .bloc{
+      flex-direction: column;
+    }
+ 
+}

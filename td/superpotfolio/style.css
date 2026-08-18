@@ -1,0 +1,196 @@
+*{
+    background: var(--my-color-gris--);
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: "pappin",sans-serif;
+    overflow: hidden;
+    margin: 5px 0;
+}
+.entete{
+    display: flex;
+    justify-content: space-around;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+div li{
+    margin: 0 30px;
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: var(--my-color-gris-fonce);
+}
+.reseau{
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: var(--my-color-gris-fonce);
+}
+:root{
+    --my-color-gris:#f3f5f8;
+    --my-color-gris-fonce:#3d535f;
+    --my-color-jaune:#ffe800;
+}
+nav div span,b{
+    color: #ffe800;
+}
+.menu li a{
+    font-size: 25px;
+    text-transform: capitalize;
+    color: var(--my-color-gris-fonce);
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: #ffe800;
+
+}
+.reseau a i:hover{
+    color: #ffe800;
+}
+.corps{
+   display: flex;
+   width: 100%;
+   height: 100vh;
+   justify-content: start;
+   align-items: center;
+   padding: 0 10%;
+   overflow: hidden;
+}
+.merci{
+    display: block;
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: var(--my-color-gris-fonce);
+    
+}
+.merci::after{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 55px;
+    bottom: 5px;
+    background-color: var(--my-color-jaune);
+}
+h1{
+    display: block;
+    font-size: 3em;
+    font-weight: 900;
+    color: var(--my-color-gris-fonce);
+}
+p{
+    
+    width: 90%;
+    font-size: 1.1em;
+    text-align: justify;
+    color: var(--my-color-gris-fonce);
+    overflow: hidden;
+}
+.bon{
+    width: 100%;
+    position: relative;
+    left: 50px;
+}
+button{
+    border: none;
+    font-size: 25px;
+    outline: none;
+    font-weight: 400;
+    background-color: var(--my-color-gris-fonce);
+    color: #f3f5f8;
+    padding: 8px 14px;
+    margin: 10px px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgba(0 ,0 ,0, 4);
+}
+button:hover{
+    background-color: var(--my-color-jaune);
+}
+.groupimage img{
+    position: relative;
+    height: 100%;
+    width: calc(105%);
+    right: -50px;
+    top: 5px;
+    animation: animationimage 5s linear infinite;
+}
+@keyframes animationimage{
+    50%{
+        right: 10px;
+        top: 15px;
+
+    
+}
+}
+.groupimage{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.groupimage .toto{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(-15deg);
+    filter: saturate(200%);
+    
+    animation: animatefile_00000000d87461f89f7badfb72c17b1f 5s linear infinite;
+}
+@keyframes animatefile_00000000d87461f89f7badfb72c17b1f {
+    50%{
+        right: 20%;
+        top: 50%;
+         width: 30%;
+
+    }
+}
+.corps::before{
+    position: absolute;
+    content: "";
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background: linear-gradient(45deg,#ffe800,pink);
+    left: 15%;
+    top: 40%;
+    animation: beforeanime 6s linear infinite;
+}
+@keyframes beforeanime{
+    50%{
+        left: -13%;
+        top: 41%;
+    }
+}
+.cgauche{
+    position: relative;
+    overflow: hidden;
+}
+.corps::after{
+    position: absolute;
+    content: "";
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: linear-gradient(45deg,#ffe800,pink);
+    left: 30%;
+    top: 3%;
+    animation: beforeanime 8s linear infinite;
+}
+@keyframes afteranime{
+    50%{
+        left: 10%;
+        top: 5%;
+    }
+}
+#textdefil{
+    color: #ffe800;
+}
+img{
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+}

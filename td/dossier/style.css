@@ -1,0 +1,87 @@
+.bloc{
+    width: 990px;
+    height: 100%;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+.bloc {
+    font-size: 1,3em;
+
+}
+
+
+
+/*
+cest ici que le travail se passe
+*/
+label,span{
+    display: block;
+    
+}
+form{
+    width: 560px;
+    
+   padding: 20px 20px 80px;
+   margin-top: 50px;
+}
+input{
+    position: relative;
+    left: 220px;
+    width: 300px;
+    height: 30px;
+}
+select{
+    position: relative;
+    left: 220px;
+
+}
+label,span{
+    font-size: 20px;
+   text-transform: capitalize;
+}
+input,span,select{
+    position: relative;
+    bottom: 20px;
+}
+.do{
+    position: relative;
+    left: 220px;
+    bottom: 55px;
+}
+span{
+    position: relative;
+    top: 40px;
+}
+button{
+    position: relative;
+    top: 30px;
+    width: 200px;
+    height: 30px;
+    right: 96px;
+    background-color: blue;
+}
+form{
+    position: relative;
+    left: 380px;
+}
+@media screen and (max-width:780px)
+{
+    form{
+        width: 300px;
+
+    }
+    
+}
+p{
+    color: rgb(225, 127, 255);
+}
+section{
+    background-color: gainsboro;
+    background-image: url(cascade-shiraito-automne-au-japon_335224-193.jpg);
+   
+}
+form{
+    background-color: rgb(209, 194, 194);
+    background-size: cover;
+}

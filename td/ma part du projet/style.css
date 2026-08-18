@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url(img.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+section{
+    background-color: transparent;
+    border: 2px solid rgb(255,255,255,0.2);
+    backdrop-filter: blur(20px);
+    padding: 30px;
+    width: 420px;
+    border-radius:20px ;
+
+
+}
+section h1{
+    font-size: 30px;
+    text-align: center;
+    color: #eef3ed;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.input-box{
+    width: 100%;
+    position: relative;
+    margin-bottom: 25px;
+}
+.input-box input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid rgb(255,255,255,0.2);
+    color: #fff;
+    padding-right: 40px;
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+.remember-forget{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.remember-forget a , .login , .registre-link a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.remember-forget a:hover , .registre-link a{
+    text-decoration: underline;
+}
+.login{
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    outline: none;
+    border: 0;
+    cursor: 2px solid transparent;
+    transition: 0.5s;
+}
+.login:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,0.2);
+    color: #fff;
+}
+.login{
+    text-align: center;
+    margin-top: 25px;
+    color: #3a3131;
+    font-size: 14px;
+}
+.registre-link{
+    position: relative;
+    top: 10px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: relative;
+    bottom: 250px;
+
+}
+.yes,.three{
+    position: relative;
+    top: 30px;
+    
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+a{
+    text-decoration: none;
+}
+input{
+    border: 1px solid rgb(161, 189, 212);
+    border-radius: 50px;
+    padding-right: 100px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: rgb(161, 189, 212);
+}
+.two{
+    border: 1px solid blue;
+    border-radius: 50px;
+    padding: 15px;
+    position: relative;
+    top: 20px;
+}
+.one{
+    position: relative;
+    top: 20px;
+}
+.two:hover{
+    background-color: rgb(49, 49, 68);
+    color: #fff;
+}
+input:hover{
+    font-size: 20px;
+    overflow: hidden;
+}
+section{
+    position: relative;
+    right: 200px;
+}
+.one{
+    position: relative;
+    left: 100px;
+}
+.two{
+    position: relative;
+    left: 80px;
+}
+.three{
+    position: relative;
+    left: 60px;
+}
+.yes{
+    position: relative;
+    left:40px ;
+}

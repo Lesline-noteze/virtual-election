@@ -1,0 +1,211 @@
+.tes {
+    position: relative;
+}
+.tes a{
+    text-decoration: none;
+}
+.tes ul li{
+    list-style-type: none;
+}
+.tes ul li:hover{
+    background-color: #fff;
+}
+.tes ul{
+    width: 100px;
+    background-color: rgb(214, 214, 235);
+   
+}
+.tes .men{
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+.tes:hover .men {
+    display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(208, 208, 224);
+    height: 80px;
+}
+img{
+    position: relative;
+    bottom: 50px;
+}
+div{
+    padding-top: 40px;
+}
+div ul li{
+    text-align: center;
+    padding: 10px;
+}
+.parcour{
+    text-align: center;
+    border: 1px solid #4856a3;
+    margin-left: 400px;
+   margin-right: 400px;
+   margin-top: 150px;
+   padding: 8px;
+   border-radius: 20px;
+   background-color: #4856a3;
+}
+aside ul{
+    display: flex;
+    text-align: center;
+     padding-top: 100px;
+     margin-left: 230px;
+}
+.a,.b,.c,.d,.e,.f,.g,.h{
+    border: 1px solid black;
+    padding: 20px;
+    list-style-type: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin:20px ;
+    border-radius: 10px;
+    background-color: blue;
+}
+.bi{
+    position: relative;
+    bottom: 80px;
+
+}
+article p{
+    position: relative;
+    bottom: 70px;
+   
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+article span img{
+    padding-left: 80px;
+}
+article span {
+    position: relative;
+    left: 30px;
+}
+.doti{
+    padding-bottom: 80px;
+    padding-left: 120px;
+    color: blue;
+
+}
+main span{
+   position: relative;
+   bottom: 30px;
+}
+main p span{
+    position: relative;
+    left: 330px;
+    bottom: 60px;
+}
+main p ins{
+    position: relative;
+    left: 630px;
+    bottom: 100px;
+    text-decoration: none;
+    
+}
+main p b{
+    position: relative;
+    left: 940px;
+    bottom: 140px;
+    text-decoration: none;
+    
+}
+main h4{
+    margin-left: 70px;
+}
+main h4 img{
+    padding: 30px;
+}
+footer span{
+    position: relative;
+    bottom: 50px;
+ }
+ footer p span{
+     position: relative;
+     left: 330px;
+     bottom: 80px;
+ }
+ footer p ins{
+     position: relative;
+     left: 630px;
+     bottom: 120px;
+     text-decoration: none;
+     
+ }
+ footer p b{
+     position: relative;
+     left: 940px;
+     bottom: 160px;
+     text-decoration: none;
+     
+ }
+ 
+ footer h4 img{
+     padding: 30px;
+ }
+ .fille{
+    position: relative;
+    bottom: 100px;
+   
+    font-size: 25px;
+ }
+ .enfant{
+    margin-left: 70px;
+ }
+ footer span img{
+    padding-top: 40px;
+    padding: 30px;
+ }
+ aside span{
+    position: relative;
+    bottom: 90px;
+ }
+ aside p span{
+     position: relative;
+     left: 330px;
+     bottom: 120px;
+ }
+ aside p ins{
+     position: relative;
+     left: 630px;
+     bottom: 160px;
+     text-decoration: none;
+     
+ }
+ aside p b{
+     position: relative;
+     left: 940px;
+     bottom: 200px;
+     text-decoration: none;
+     
+ }
+ aside h4{
+     margin-left: 70px;
+ }
+ aside h4 img{
+     padding: 30px;
+ }
+ .chaussure{
+    margin-left: 70px;
+    position: relative;
+    bottom: 100px;
+    
+ }
+ aside img{
+    padding: 30px;
+ }
+ @media screen and (max-width: 737px){
+    .container{
+        width: 80%;
+    }
+    
+ }

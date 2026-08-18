@@ -1,0 +1,54 @@
+
+label,input{
+    display: flex;
+}
+fieldset{
+    padding: 50px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+label{
+    padding: 10px 10px 0 10px;
+}
+input{
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+input,textarea{
+    position: relative;
+    left: 70px;
+}
+textarea{
+    padding: -20px;
+}
+.aa{
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+}
+.un{
+    position: relative;
+    top: 20px;
+}
+.so{
+    position: relative;
+    left: 60px;
+}
+.sava{
+    position: relative;
+    left: 70px;
+}
+.voir{
+    position: relative;
+    left: 90px;
+}
+.te{
+    position: relative;
+    right: 15px;
+}
+.op{
+    position: relative;
+    left: 10px;
+}

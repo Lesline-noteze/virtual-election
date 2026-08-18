@@ -1,0 +1,42 @@
+
+
+
+h1{
+    position: relative;
+    bottom: 130px;
+    left: 100px;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(37, 1, 71);
+    font-weight: 800;
+    letter-spacing: 3px;
+    
+}
+
+header{
+    overflow: hidden;
+}
+.love{
+    font-size: 25px;
+    letter-spacing: 2px;
+    
+}
+.love{
+    position: relative;
+    bottom: 100px;
+}
+.oui{
+    margin-left: 90px;
+    position: relative;
+    bottom: 100px;
+}
+img:hover{
+    
+    transform: translateY(-10px);
+    transform:scale(1.20) ;
+    transition: transform 0.3s ease;
+}
+img{
+    padding: 20px;
+}

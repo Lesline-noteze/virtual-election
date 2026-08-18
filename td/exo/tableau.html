@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="">
+        <fieldset>
+            <legend>formulaire d'inscription</legend>
+            <label for="nom">nom</label>
+            <input type="text" id="nom" name="nom" required placeholder="saisir votre nom"><br><br>
+            <label for="prenom">prenom</label>
+            <input type="text" id="prenom" name="prenom" required placeholder="saisir votre prenom"><br><br>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" required placeholder="saisir votre email"><br><br>  
+            <span>sexe</span>
+            <label for="masculin">masculin</label>
+            <input type="radio" id="masculin" name="sexe">
+            <label for="feminin">feminin</label>
+            <input type="radio" id="feminin" name="sexe"><br><br>
+            <label for="photo">photo</label>
+            <input type="file" id="photo" name="photo"><br><br>
+            <label for="pays">pays</label>
+            <select name="pays" id="pays">
+                <option value="france">france</option>
+            </select><br><br>
+            <label for="matiere">matiere prefere</label>
+            <select name="matiere" id="matiere" multiple>
+                <option value="c++">c++</option>
+                <option value="java">java</option>
+                <option value="php">php</option>
+                <option value="c">c</option>
+            </select><br><br>
+               <span>domaine d'activite</span>
+               <label for="info">informatique</label>
+               <input type="checkbox" id="info" name="informatique">
+               <label for="gest">gestion</label>
+               <input type="checkbox" id="gest" name="gestion">
+               <label for="peda">pedagogie</label>
+               <input type="checkbox" id="peda" name="pedagogie"><br><br>
+                        <input type="submit" id="submit" name="envoyer">
+                        <input type="reset" id="reset" name="renitialiser">
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
